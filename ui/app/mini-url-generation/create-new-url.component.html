@@ -1,0 +1,10 @@
+<h2>Generate Url</h2>
+
+<form [formGroup]="generateUrlForm" (ngSubmit)="onSubmit()">
+    <div>
+    <input id="longUrl" type="text" formControlName="longUrl" placeholder="Enter your url">
+    </div>
+    <div [hidden]="generateUrlForm.valid || generateUrlForm.pristine"
+         class="alert alert-danger">Valid url is required.</div>
+    <button class="button" type="submit" [disabled]="!generateUrlForm.valid">Shorten It</button>
+</form>

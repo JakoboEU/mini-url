@@ -1,0 +1,9 @@
+service/build
+**/*.iml
+ui/node_modules
+ui/.angular
+ui/yarn.lock
+**/.idea
+.DS_Store
+**/maven-wrapper.jar
+

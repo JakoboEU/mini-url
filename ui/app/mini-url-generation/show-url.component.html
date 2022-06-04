@@ -1,0 +1,7 @@
+<h2>Generated Url</h2>
+<p>Original url {{ miniUrl.longUrl }}</p>
+<p>
+    Your short url
+    <a [routerLink]="['/goto', miniUrl.miniUrlCode]" target="_new">http://localhost:4200/goto/{{miniUrl.miniUrlCode}}</a>
+</p>
+<button class="button" [routerLink]="['/']">Start Over</button>
