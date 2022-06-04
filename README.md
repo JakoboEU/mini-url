@@ -1,4 +1,4 @@
-#Marcura Technical Task
+# Marcura Technical Task
 
 *Remaining Tasks:*
 * Admin UI Pages - admin endpoint can be seen here http://localhost:8080/admin/audit?page=0 (admin/password)
@@ -7,7 +7,7 @@
 * Improve error handling in UI, `replace console.warn(...)`
 * Dockerize with real dbms
 
-##Service
+## Service
 
 From inside `./service` directory.  
 
@@ -20,7 +20,7 @@ Build and run:
 ./mvnw spring-boot:run
 ```
 
-##UI
+## UI
 
 From inside `./ui` directory. 
 
