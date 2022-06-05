@@ -3,7 +3,7 @@ import { FormBuilder, Validators } from '@angular/forms';
 import { MiniUrlStoreService } from '../mini-url-store/mini-url-store.service';
 import { Router } from '@angular/router';
 
-const validUrlPattern = '(https?://)?([\\da-z.-]+)\\.([a-z.]{2,6})[/\\w .-]*/?';
+const validUrlPattern = '(\b(https?|ftp|file)://)?[-A-Za-z0-9+&@#/%?=~_|!:,.;]+[-A-Za-z0-9+&@#/%=~_|]';
 
 @Component({
     selector: 'app-create-new-url',
