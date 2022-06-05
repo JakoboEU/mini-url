@@ -1,4 +1,5 @@
 service/build
+service/target
 **/*.iml
 ui/node_modules
 ui/.angular
